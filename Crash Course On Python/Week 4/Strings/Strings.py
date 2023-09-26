@@ -6,3 +6,10 @@ print("example"*3)
 pet = "dog"
 print(len(pet))
 
+cat = "gato"
+
+dog = "cadelo"
+
+print(cat+dog)
+
+homeAnimals = ["Frodo"]
