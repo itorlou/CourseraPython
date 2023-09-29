@@ -17,6 +17,4 @@ file.close() # cerramos el archivo
 
 with open(file_path) as file:
     print(file.readline())
-    # así python cierra automáticamente el archivo 
-
-
+    # así python cierra automáticamente el archivo
