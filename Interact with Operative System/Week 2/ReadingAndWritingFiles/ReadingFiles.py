@@ -1,4 +1,9 @@
-file = open("spider.txt") # abrimos archivo
+from os.path import dirname, join
+
+current_dir = dirname(__file__)
+file_path = join(current_dir, "./spider.txt")
+
+file = open(file_path) # abrimos archivo
   
 print(file.readline()) # leemos una línea y avanzamos el puntero
 
@@ -10,7 +15,7 @@ file.close() # cerramos el archivo
 
 # usando el with 
 
-with open("spider.txt") as file:
+with open(file_path) as file:
     print(file.readline())
     # así python cierra automáticamente el archivo 
 
