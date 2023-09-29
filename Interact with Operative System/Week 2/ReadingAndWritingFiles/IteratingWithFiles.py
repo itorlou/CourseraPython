@@ -6,8 +6,8 @@ with open("spider.txt") as file:
 
 
 file = open("spider.txt")
-lines= file.readlines()
+lines= file.readlines() #almacenamos las líneas en una lista 
 file.close()
 
-lines.sort()
+lines.sort() #ordenamos alfabéticamente las líneas
 print(lines)

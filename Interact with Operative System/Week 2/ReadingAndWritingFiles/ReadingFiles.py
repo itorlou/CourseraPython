@@ -12,3 +12,6 @@ file.close() # cerramos el archivo
 
 with open("spider.txt") as file:
     print(file.readline())
+    # así python cierra automáticamente el archivo 
+
+
