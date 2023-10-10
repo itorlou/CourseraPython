@@ -9,7 +9,6 @@ with open(file_path) as software:
     for row in reader:
          print("{} has {} users".format(row["name"], row["users"]))
 
-
 # Escribir en un csv con diccionarios
 users =[{"name": "Sol Mansi", "username": "solm", "department": "IT infrastructure"},{"name": "Lio Nelson", "username":"lion","department": "User Experience Research"},{"name": "Charlie Grey", "username": "greyc" ,"department": "Development"}]
 
