@@ -32,4 +32,4 @@ class testRearrange(unittest.TestCase): #hacemos que herede de unittest.TestCase
         excepted = "Voltaire"
         self.assertEqual(rearrange_name(testcase),excepted)
 
-unittest.main()
+unittest.main() 
